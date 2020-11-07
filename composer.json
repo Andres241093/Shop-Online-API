@@ -1,0 +1,22 @@
+{
+    "name": "andres/api",
+    "description": "API for ABC hosting test",
+    "type": "project",
+    "require": {
+        "illuminate/database": "5.5",
+        "firebase/php-jwt": "dev-master"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\": "app/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andres",
+            "email": "andresucero241093@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
